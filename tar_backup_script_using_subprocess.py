@@ -1,4 +1,4 @@
-# The script uses subprocess to run tar command.
+# The script uses subprocess to run tar command instead of tarfile module.
 # First it generates backup file name then checks if enough arguments have been provided.
 # Then script verifies that files/dirs provided as command line arguments actually exist.
 # Then it generate tar command in list format which subprocess.Popen requires.
